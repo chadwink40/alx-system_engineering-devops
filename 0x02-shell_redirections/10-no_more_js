@@ -1,2 +1,2 @@
 #!/bin/bash
-cat 10-no_more_js | sed '/.js/d'
+find . -name '*.js' -type f -delete
